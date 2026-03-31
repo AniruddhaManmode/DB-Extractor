@@ -23,5 +23,5 @@ A comprehensive Python tool for extracting, documenting, and generating DDL from
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/database-structure-extractor.git
-cd database-structure-extractor
+git clone https://github.com/AniruddhaManmode/DB-Extractor.git
+cd DB-Extractor
