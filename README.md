@@ -23,5 +23,6 @@ A comprehensive Python tool for extracting, documenting, and generating DDL from
 
 1. Clone the repository:
 ```bash
+python3 -m venv .venv
 git clone https://github.com/AniruddhaManmode/DB-Extractor.git
 cd DB-Extractor
