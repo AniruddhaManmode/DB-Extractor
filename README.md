@@ -19,10 +19,11 @@ A comprehensive Python tool for extracting, documenting, and generating DDL from
 - Python 3.7 or higher
 - pip package manager
 
-### Install from source
+### Install from source (linux)
 
 1. Clone the repository:
 ```bash
 python3 -m venv .venv
+source .venv/bin/activate
 git clone https://github.com/AniruddhaManmode/DB-Extractor.git
 cd DB-Extractor
