@@ -1,29 +1,62 @@
-# Database Structure Extractor
+# DB Extractor
 
-A comprehensive Python tool for extracting, documenting, and generating DDL from database schemas. Supports multiple database systems including MySQL, PostgreSQL, SQLite, and SQL Server.
+A modern, professional desktop application for extracting, viewing, and exporting database schemas. DB Extractor features a gorgeous, responsive graphical user interface with full light/dark mode support, built-in search, and robust connection management.
 
-## Features
+## 🚀 Features
 
-- 🔌 **Multi-database support**: MySQL, PostgreSQL, SQLite, SQL Server
-- 📊 **Schema extraction**: Extract complete database structure including tables, columns, data types, constraints, and indexes
-- 💾 **Multiple output formats**: JSON schema export and SQL DDL generation
-- 🗄️ **Configuration management**: Save and manage multiple database connections
-- 🔍 **Interactive CLI**: User-friendly command-line interface
-- 📝 **Foreign key detection**: Automatically identifies and documents relationships
-- 🔑 **Primary key detection**: Identifies primary keys across different database systems
-- 📑 **Index extraction**: Captures all indexes including unique constraints
+- **Multi-Database Support**: Extract schemas from MySQL, PostgreSQL, SQLite, and SQL Server.
+- **Beautiful Modern UI**: A clean, spacious, and responsive interface inspired by modern SaaS and developer tools.
+- **Light & Dark Themes**: Native light and dark mode toggles with hand-crafted, high-contrast color palettes.
+- **Extraction History**: Automatically logs every extraction attempt. View past results, error logs, and schema exports instantly with a built-in search filter.
+- **Schema Explorer**: Double-click any table in your schema to view its columns, data types, primary keys, and foreign key relationships.
+- **Code Viewer**: Built-in raw code viewer with one-click clipboard copying for JSON schemas and SQL DDL.
+- **Secure Configuration Management**: Safely store and manage your connection strings in a local SQLite database.
 
-## Installation
+## 📸 Screenshots
+*(Add screenshots of your new beautiful UI here!)*
+
+## 🛠️ Installation
 
 ### Prerequisites
 - Python 3.7 or higher
 - pip package manager
 
-### Install from source (linux)
+### Setup
 
 1. Clone the repository:
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
 git clone https://github.com/AniruddhaManmode/DB-Extractor.git
 cd DB-Extractor
+```
+
+2. (Optional but recommended) Create a virtual environment:
+```bash
+python -m venv venv
+# On Windows
+venv\Scripts\activate
+# On macOS/Linux
+source venv/bin/activate
+```
+
+3. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+*Note: The database drivers (`pymysql`, `psycopg2-binary`, `pyodbc`) are optional. You only need to install the drivers for the databases you actually plan to connect to.*
+
+## 💻 Usage
+
+Run the application using Python:
+```bash
+python gui_app.py
+```
+
+1. Click **+ New Config** to add a database connection.
+2. Select your config from the list and click **Extract Schema** to generate the JSON and SQL DDL.
+3. Use the right-side details panel to view the schema table by table.
+4. Export or copy the generated SQL/JSON using the **View JSON** and **View SQL DDL** buttons.
+
+## 🗃️ Export Formats
+When a schema is extracted, it is automatically saved to the `~/.db_extractor/schemas/` directory in two formats:
+- **JSON Format**: A comprehensive JSON representation of all tables, columns, indexes, and relationships.
+- **SQL DDL**: Ready-to-execute `CREATE TABLE` SQL statements generated from your schema structure.

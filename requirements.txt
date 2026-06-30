@@ -1,14 +1,7 @@
-# Core dependencies
-# Install only the database drivers you need
+# Core UI Framework
+customtkinter>=5.2.0
 
-# MySQL driver
+# Database Drivers (Optional - Install only what you need)
 pymysql>=1.0.2
-
-# PostgreSQL driver
 psycopg2-binary>=2.9.0
-
-# SQL Server driver
 pyodbc>=5.0.0
-
-# SQLite is included in Python standard library
-# No additional installation required
