@@ -1,6 +1,6 @@
 # DB Extractor
 
-A modern, professional desktop application for extracting, viewing, and exporting database schemas. DB Extractor features a gorgeous, responsive graphical user interface with full light/dark mode support, built-in search, and robust connection management.
+A modern, professional desktop application for extracting, viewing, and exporting database schemas. DB Extractor features a gorgeous, responsive graphical user interface with full light/dark mode support.
 
 ## 🚀 Features
 
@@ -14,17 +14,17 @@ A modern, professional desktop application for extracting, viewing, and exportin
 
 ## 📸 Screenshots
 
-![Home View](image.png)
+![Home View](images/image.png)
 
-![New Config](image-1.png)
+![New Config](images/image-1.png)
 
-![Detail Section](image-2.png)
+![Detail Section](images/image-2.png)
 
-![Extraction History](image-3.png)
+![Extraction History](images/image-3.png)
 
-![SQL Code](image-4.png)
+![SQL Code](images/image-4.png)
 
-![Theme Toggle](image-5.png)
+![Theme Toggle](images/image-5.png)
 
 ## 🛠️ Installation
 
