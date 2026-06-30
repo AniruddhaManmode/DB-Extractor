@@ -13,7 +13,18 @@ A modern, professional desktop application for extracting, viewing, and exportin
 - **Secure Configuration Management**: Safely store and manage your connection strings in a local SQLite database.
 
 ## 📸 Screenshots
-*(Add screenshots of your new beautiful UI here!)*
+
+![Home View](image.png)
+
+![New Config](image-1.png)
+
+![Detail Section](image-2.png)
+
+![Extraction History](image-3.png)
+
+![SQL Code](image-4.png)
+
+![Theme Toggle](image-5.png)
 
 ## 🛠️ Installation
 
